@@ -4,9 +4,11 @@ This is a PureData external, implementing an audio compression algorithm.
 
 The algorithm is implemented in C, and found in benCompressor~.c
 
-Compression serves to limit the dynamic range of a signal.  It lowers signal amplitude upon reaching a certain amplitude threshold.  This allows for the entire signal to be turned up in amplitude.
+This module emulates a compressor used in recording and music production
 
-Attack/Release envelope controls allow the timing of the algorithm to be adjusted.
+Compression serves to limit the dynamic range of a signal.  It lowers signal amplitude upon reaching a certain amplitude threshold.  In turn, this allows for the entire signal to be turned up in amplitude.
+
+Attack/Release envelope controls allow the timing of the algorithm to be adjusted for creative effect.
 
 ## Compiling the External 
 
